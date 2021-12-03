@@ -1,0 +1,25 @@
+import React,{Component} from 'react';
+
+
+class Profiledetail extends Component {
+    render() {
+        return (
+            <div className="card w-100 shadow-xss rounded-xxl border-0 mb-3">
+                <div className="card-body d-block p-4">
+                    <h4 className="fw-700 mb-3 font-xsss text-grey-900">Détails</h4>
+                    <p className="fw-500 text-grey-500 lh-24 font-xssss mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla dolor, ornare at commodo non, feugiat non nisi. Phasellus faucibus mollis pharetra. Proin blandit ac massa sed rhoncus</p>
+                </div>
+                <div className="card-body d-flex pt-0">
+                    <i className="feather-map-pin text-grey-500 me-3 font-lg"></i>
+                    <h4 className="fw-700 text-grey-900 font-xssss mt-1">Paris, France </h4>
+                </div>
+                <div className="card-body d-flex pt-0">
+                    <i className="feather-users text-grey-500 me-3 font-lg"></i>
+                    <h4 className="fw-700 text-grey-900 font-xssss mt-1">Profession </h4>
+                </div>
+            </div>
+        );
+    }
+}
+
+export default Profiledetail;
