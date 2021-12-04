@@ -32,7 +32,7 @@ class Login extends Component {
                                     </form>
 
                                     <div className="col-sm-12 p-0 text-left">
-                                        <div className="form-group mb-1"><a href="/" className="form-control text-center style2-input text-white fw-600 bg-dark border-0 p-0 ">Entrer</a></div>
+                                        <div className="form-group mb-1"><a href="/home" className="form-control text-center style2-input text-white fw-600 bg-dark border-0 p-0 ">Entrer</a></div>
                                     </div>
                                 </div>
                             </div>
